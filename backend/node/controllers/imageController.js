@@ -5,9 +5,9 @@ const mysql = require('mysql2');
 // MySQL connection setup
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'your_username',
-    password: 'your_password',
-    database: 'your_database'
+    user: 'root',
+    password: 'invntzA!#',
+    database: 'sustainabilitydb2'
 });
 
 // Configure multer for file uploads
