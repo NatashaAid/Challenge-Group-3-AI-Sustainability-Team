@@ -1,0 +1,8 @@
+/* Created by Mikaeel Zaman */
+
+.card {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding: 2em;
+}
