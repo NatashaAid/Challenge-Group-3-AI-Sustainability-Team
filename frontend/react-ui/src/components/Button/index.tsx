@@ -1,9 +1,9 @@
 // Button component created by Jordan Onwodi
-import { ButtonHTMLAttributes } from "react";
+import { ButtonHTMLAttributes, ReactNode } from "react";
 import "./styles.css";
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
-  label: string;
+  label: string | ReactNode ;
 }
 
 function Button({ label, ...props }: Props) {
