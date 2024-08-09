@@ -5,14 +5,20 @@ import './style.css';
 
 //Children prop for card
 interface Cardprops {
-    children: ReactNode
+    header: ReactNode;
+    children: ReactNode;
 }
 
 //Card component function
-function Card({ children }: Cardprops) {
+function Card({ children, header }: Cardprops) {
     return (
-        <div className="card">
-        {children}
+        <div className='card'>
+            <div className="cardHeader">
+            {header}
+            </div>
+            <div className="cardContent">
+            {children}
+            </div>
         </div>
     )
 }
