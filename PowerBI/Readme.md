@@ -1,2 +1,2 @@
-![My Image](https://github.com/username/repository-name/blob/main/image.png](https://github.com/Iswaryag5/Learning-Journey-Bootcamp-Exercises/blob/main/Powerbi%20Dashboard%20Sustainability.png)
+![My Image](https://github.com/Invntz/Challenge-Group-3-AI-Sustainability-Team/blob/experimental/PowerBI/Powerbi%20Dashboard%20Sustainability.png)
 
