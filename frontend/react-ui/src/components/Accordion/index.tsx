@@ -19,7 +19,7 @@ function Accordion({ label, toggle, onToggle }: Props) {
           checked={toggle}
           onChange={onToggle}
         />
-        <p className="accordion__chevron">Chevron</p>
+        <p>Chevron</p>
       </label>
       {toggle ? (
         <div>

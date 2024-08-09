@@ -9,9 +9,6 @@
   opacity: 0;
 }
 
-.accordion__chevron {
-}
-
 .accordion__options {
   display: flex;
   justify-content: center;
