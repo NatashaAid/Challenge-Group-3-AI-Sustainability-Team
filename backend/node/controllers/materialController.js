@@ -9,8 +9,10 @@ const db = mysql.createConnection({
     database: 'sustainabilitydb2'
 });
 
+
 const getAllMaterials = (req, res) => {
-    const query = 'Select * FROM materials';
+    // For now we are using hard-coded materials till AI is intergrated
+    const query = 'SELECT * FROM materials WHERE MaterialID IN (1, 13, 7)';
     db.query(query, (err, results) => {
         if (err) {
             console.error('Error storing image:', err);

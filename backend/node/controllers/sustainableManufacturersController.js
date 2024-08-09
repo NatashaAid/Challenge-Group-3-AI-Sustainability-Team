@@ -9,7 +9,7 @@ const db = mysql.createConnection({
 });
 
 const getSustainableManufacturers = (req, res) => {
-    const query = 'Select * FROM materials';
+    const query = 'SELECT * FROM manufacturers where ManufacturerID in (14,12,13)';
     db.query(query, (err, results) => {
         if (err) {
             console.error('Error storing image:', err);

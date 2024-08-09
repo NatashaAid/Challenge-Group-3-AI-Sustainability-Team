@@ -10,7 +10,7 @@ const db = mysql.createConnection({
 
 
 const getSustainableSuppliers = (req, res) => {
-    const query = 'Select * FROM suppliers';
+    const query = 'SELECT * FROM suppliers WHERE SupplierID IN (1, 13, 7)';
     db.query(query, (err, results) => {
         if (err) {
             console.error('Error storing image:', err);
