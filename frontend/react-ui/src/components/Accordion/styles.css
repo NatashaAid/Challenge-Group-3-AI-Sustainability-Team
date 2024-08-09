@@ -1,0 +1,17 @@
+/* Accordion styles created by Jordan Onwodi */
+.accordion {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion__toggle {
+  opacity: 0;
+}
+
+.accordion__options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
