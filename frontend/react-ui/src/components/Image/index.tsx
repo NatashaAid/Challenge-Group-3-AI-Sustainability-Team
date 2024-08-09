@@ -1,3 +1,5 @@
+// AUTHOR: Zobier Rigi
+
 import "./style.css";
 
 interface ImageProps {
