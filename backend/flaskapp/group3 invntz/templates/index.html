@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--  orginal idea was to create a interface aplication for the code Tulu created for the machine learning to display  imagry with su
+  suggested eviromental impact with a traffic light system. 
+  due to time constrains unable to use imagryas it needs a mass amount of images to be trainned which now we are using text   only text which is under  construction  this is a hard data prototype -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='/design.css')}}">
+    <title>Product Designer Tool</title>
+    
+</head>  
+<body>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+
+    <div class="container">
+        <div class="header">
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" required>
+                <input type="submit" value="Upload">
+            </form>
+            
+            
+
+            <button>Save Product</button>
+            
+            <button>Manufacturing Order</button>
+            <span>Draft Mode</span>
+        </div>
+
+        <div class="tool">
+            <h2>Product Designer Tool</h2>
+            <img src="https://via.placeholder.com/150" alt="Product Image">
+        </div>
+
+        <div class="supply-chain">
+            <h3>Supply Chain Selection</h3>
+            <!-- create form for M/l to display data once clothing item has been upladed ()-->
+            
+        </div>
+
+        <div class="impact-dashboard">
+            <h3>Environmental Impact Dashboard</h3>
+            <div class="dashboard-icons">
+                <!-- Repeat for all icons -->
+                <div class="icon">
+                    <form action="/" method="post">
+                        <!-- create M/l display eviromental information  -->
+                    </form>
+                </div>
+                
+            </div>
+            <div class="legend">
+                <div><div style="background-color: green; width: 10px; height: 10px;"></div><span>Low Impact</span></div>
+                <div><div style="background-color: orange; width: 10px; height: 10px;"></div><span>Medium Impact</span></div>
+                <div><div style="background-color: red; width: 10px; height: 10px;"></div><span>High Impact</span></div>
+           
+              <!-- create  js script to switch based off of  enviromental co2 emmisons-->
+           
+            </div>
+        </div>
+    </div>
+</body>
+</html>

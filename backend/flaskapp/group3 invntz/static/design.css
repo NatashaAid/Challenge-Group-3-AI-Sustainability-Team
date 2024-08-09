@@ -1,0 +1,56 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .tool, .supply-chain, .impact-dashboard {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+        .tool img {
+            display: block;
+            margin: 0 auto;
+        }
+        .dashboard-icons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .icon {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .legend {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        .legend div {
+            display: flex;
+            align-items: center;
+        }
+        .legend span {
+            margin-left: 5px;
+        }
+    
