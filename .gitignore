@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+
+# Django stuff:
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# If you use MySQL
+*.sql
+*.db
+
+# If you use PostgreSQL
+*.pgsql
+
+# Django migrations
+*/migrations/*
+
+# Media folder
+/media
+
+# Static folder at project root
+/static
+
+/templates
+
+# Environment variables
+.env
+*.env
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows:
+Thumbs.db
+ehthumbs.db
