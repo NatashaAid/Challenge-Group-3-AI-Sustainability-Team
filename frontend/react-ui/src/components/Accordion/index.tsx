@@ -25,7 +25,6 @@ function Accordion({ label, toggle, onToggle }: Props) {
         <div>
           {[1, 2, 3].map((_, i) => (
             <label key={i} className="accordion__options">
-              <input type="checkbox" />
               <p>Organic Cotton</p>
             </label>
           ))}
