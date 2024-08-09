@@ -8,7 +8,11 @@ interface Props {
 }
 
 function PageBody({ children }: Props) {
-  return <section className="page__body">{children}</section>;
+  return (
+    <section className="page__body" style={{ display: "flex" }}>
+      {children}
+    </section>
+  );
 }
 
 export default PageBody;

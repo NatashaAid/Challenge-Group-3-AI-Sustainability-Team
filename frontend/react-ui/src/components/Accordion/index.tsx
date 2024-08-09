@@ -1,18 +1,18 @@
 // Accordion created by Jordan Onwodi
-import  { ChangeEvent } from "react";
+import { ChangeEvent } from "react";
 import "./styles.css";
 import Button from "../Button";
 import SupplierIcon from "../SupplierIcon";
-import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid'
-
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 
 interface Props {
   label: string;
   toggle: boolean;
   onToggle: (e: ChangeEvent<HTMLInputElement>) => void;
+  options: any;
 }
 
-function Accordion({ label, toggle, onToggle }: Props) {
+function Accordion({ label, toggle, onToggle, options }: Props) {
   return (
     <div>
       <label className="accordion">
@@ -23,15 +23,18 @@ function Accordion({ label, toggle, onToggle }: Props) {
           checked={toggle}
           onChange={onToggle}
         />
-        {toggle === true ?  <ChevronDownIcon className="chevron"/>: <ChevronUpIcon className="chevron"/>}
-       
+        {toggle === true ? (
+          <ChevronDownIcon className="chevron" />
+        ) : (
+          <ChevronUpIcon className="chevron" />
+        )}
       </label>
       {toggle ? (
         <div>
-          {[1, 2, 3].map((_, i) => (
+          {options.map((option: any, i: any) => (
             <label key={i} className="accordion__options">
-              <p>Organic Cotton</p>
-              <Button label={<SupplierIcon/>} /> 
+              <p>{option}</p>
+              <Button label={<SupplierIcon />} />
             </label>
           ))}
         </div>
