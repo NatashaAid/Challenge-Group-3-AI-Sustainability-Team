@@ -1,0 +1,27 @@
+/* design tool CSS : Mikaeel Zaman */
+
+.toolcontainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.buttonContainer {
+    text-align: right;
+    top: 5px;
+    padding-bottom: 16px;
+}
+
+/* .button {
+    width: fit-content;
+    block-size: fit-content;
+} */
