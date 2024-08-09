@@ -1,4 +1,4 @@
-// Button component Jordan Onwodi
+// Button component created by Jordan Onwodi
 import { ButtonHTMLAttributes } from "react";
 import "./styles.css";
 
