@@ -7,7 +7,7 @@ interface SupplyProps {
 const SupplyChain = (props: SupplyProps) => {
   const { supplyChainList } = props;
   return (
-    <Card>
+    <Card header={<h1>Supply Chain Selection</h1>}>
       <div className="supply-card">
         <div>
           {supplyChainList.map((item, index) => (

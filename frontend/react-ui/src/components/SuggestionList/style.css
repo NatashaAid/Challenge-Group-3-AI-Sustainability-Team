@@ -1,0 +1,19 @@
+/* src/components/suggestionList/suggestionListStyles.css */
+
+/* Container for the suggestion list */
+.suggestion-list {
+    max-width: 600px; /* Limit the width of the list */
+    margin: 0 auto; /* Center the list horizontally */
+    padding: 20px; /* Add padding around the list */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for elevation effect */
+  }
+  
+  /* Style for each accordion item */
+  .accordion {
+    margin-bottom: 10px; /* Space between accordion items */
+  }
+
+
+  
