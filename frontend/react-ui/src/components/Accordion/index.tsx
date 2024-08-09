@@ -1,4 +1,4 @@
-// Creted by Jordan Onwodi
+// Accordion created by Jordan Onwodi
 import { ChangeEvent } from "react";
 import "./styles.css";
 
