@@ -1,0 +1,24 @@
+ProductName,DesignFilePath,MaterialName,SupplierName,ManufacturerName
+T-Shirt,/path/to/design1.png,Organic Cotton,Supplier 1,Manufacturer 1
+Jacket,/path/to/design2.png,Organic Cotton,Supplier 1,Manufacturer 1
+Hat,/path/to/design3.png,Bamboo,Supplier 2,Manufacturer 2
+Scarf,/path/to/design4.png,Bamboo,Supplier 2,Manufacturer 2
+Gloves,/path/to/design5.png,Organic Linen,Supplier 3,Manufacturer 3
+Socks,/path/to/design6.png,Organic Linen,Supplier 3,Manufacturer 3
+Pants,/path/to/design7.png,Recycled Polyester,Supplier 4,Manufacturer 4
+Shorts,/path/to/design8.png,Recycled Polyester,Supplier 4,Manufacturer 4
+Dress,/path/to/design9.png,Hemp,Supplier 5,Manufacturer 5
+Skirt,/path/to/design10.png,Hemp,Supplier 5,Manufacturer 5
+Blouse,/path/to/design11.png,Tencel,Supplier 6,Manufacturer 6
+Sweater,/path/to/design12.png,Tencel,Supplier 6,Manufacturer 6
+Coat,/path/to/design13.png,Organic Wool,Supplier 7,Manufacturer 7
+Hoodie,/path/to/design14.png,Organic Wool,Supplier 7,Manufacturer 7
+Beanie,/path/to/design15.png,Recycled Nylon,Supplier 8,Manufacturer 8
+Belt,/path/to/design16.png,Recycled Nylon,Supplier 8,Manufacturer 8
+Shoes,/path/to/design17.png,Silk,Supplier 9,Manufacturer 9
+Sandals,/path/to/design18.png,Silk,Supplier 9,Manufacturer 9
+Boots,/path/to/design19.png,Linen,Supplier 10,Manufacturer 10
+Cardigan,/path/to/design20.png,Linen,Supplier 10,Manufacturer 10
+Kimono,/path/to/design21.png,Organic Cotton,Supplier 11,Manufacturer 11
+Pajamas,/path/to/design22.png,Organic Cotton,Supplier 11,Manufacturer 11
+Underwear,/path/to/design23.png,Bamboo,Supplier 12,Manufacturer 12
