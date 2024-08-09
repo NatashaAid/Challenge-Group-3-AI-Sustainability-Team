@@ -1,0 +1,14 @@
+/* Created by Jordan Onwodi */
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.page__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.page__footer {
+  display: flex;
+}
