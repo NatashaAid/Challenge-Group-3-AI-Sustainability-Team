@@ -1,4 +1,5 @@
-// Created by Jordan Onwodi
+// Page footer component created by Jordan Onwodi
+
 import { ReactNode } from "react";
 import "../Page/styles.css";
 

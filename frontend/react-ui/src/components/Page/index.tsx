@@ -1,4 +1,4 @@
-// Created by Jordan Onwodi
+// Page component created by Jordan Onwodi
 import { ReactNode } from "react";
 import "./styles.css";
 

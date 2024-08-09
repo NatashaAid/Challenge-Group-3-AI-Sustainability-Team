@@ -1,4 +1,4 @@
-// Created by Jordan Onwodi
+// Page header created by Jordan Onwodi
 import { ReactNode } from "react";
 import "../Page/styles.css";
 
