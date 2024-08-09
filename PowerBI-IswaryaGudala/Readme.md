@@ -17,6 +17,6 @@ All the files in this folder have been created and worked on by **Iswarya Gudala
 
 This project showcases the end-to-end process of data handling, from database creation to final visualizations. The use of both PowerBI and Python for visualization highlights the versatility and capability of these tools in data analysis.
 
-![My Image](https://github.com/Invntz/Challenge-Group-3-AI-Sustainability-Team/blob/experimental/PowerBI/Powerbi%20Dashboard%20Sustainability.png)
+![My Image](https://github.com/Invntz/Challenge-Group-3-AI-Sustainability-Team/blob/experimental/PowerBI-IswaryaGudala/Powerbi%20Dashboard%20Sustainability.png)
 
 
