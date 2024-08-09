@@ -1,0 +1,11 @@
+.supply-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
