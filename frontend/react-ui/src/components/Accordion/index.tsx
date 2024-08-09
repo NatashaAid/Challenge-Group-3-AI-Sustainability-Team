@@ -1,6 +1,10 @@
 // Accordion created by Jordan Onwodi
-import { ChangeEvent } from "react";
+import  { ChangeEvent } from "react";
 import "./styles.css";
+import Button from "../Button";
+import SupplierIcon from "../SupplierIcon";
+import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid'
+
 
 interface Props {
   label: string;
@@ -19,13 +23,15 @@ function Accordion({ label, toggle, onToggle }: Props) {
           checked={toggle}
           onChange={onToggle}
         />
-        <p>Chevron</p>
+        {toggle === true ?  <ChevronDownIcon className="chevron"/>: <ChevronUpIcon className="chevron"/>}
+       
       </label>
       {toggle ? (
         <div>
           {[1, 2, 3].map((_, i) => (
             <label key={i} className="accordion__options">
               <p>Organic Cotton</p>
+              <Button label={<SupplierIcon/>} /> 
             </label>
           ))}
         </div>

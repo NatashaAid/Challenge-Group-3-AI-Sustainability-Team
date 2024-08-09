@@ -3,6 +3,8 @@
   cursor: pointer;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
 }
 
 .accordion__toggle {
@@ -14,4 +16,16 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.chevron {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.accordian__buttons {
+  display: flex;
+  width: 30px;
+  height: 30px;
 }
