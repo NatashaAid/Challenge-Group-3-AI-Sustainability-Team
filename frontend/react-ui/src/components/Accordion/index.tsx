@@ -2,13 +2,13 @@
 import { ChangeEvent } from "react";
 import "./styles.css";
 
-interface AccordionProps {
+interface Props {
   label: string;
   toggle: boolean;
   onToggle: (e: ChangeEvent<HTMLInputElement>) => void;
 }
 
-function Accordion({ label, toggle, onToggle }: AccordionProps) {
+function Accordion({ label, toggle, onToggle }: Props) {
   return (
     <div>
       <label className="accordion">
