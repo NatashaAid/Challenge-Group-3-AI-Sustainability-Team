@@ -1,6 +1,12 @@
 // index.js
 const express = require('express');
+const cors = require('cors');
+
+
 var bodyParser = require('body-parser');
+
+
+//Routes
 const imageRoutes = require('./routes/imageRoutes');
 const materialRoutes = require('./routes/materialRoutes');
 const sustainableSupplierRoutes = require('./routes/sustainableSupplierRoutes');
@@ -18,6 +24,17 @@ app.use(bodyParser.raw({
     type: 'image/png',
     limit: '10mb'
   }));
+
+// CORS options
+const corsOptions = {
+    origin: 'http://example.com', 
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', 
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  };
+
+
+//CORS enabler
+app.use(cors(corsOptions));
 
 // Routes
 app.use('/api/imageRoutes', imageRoutes);
