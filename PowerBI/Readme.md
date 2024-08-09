@@ -1,4 +1,4 @@
-All the files in the `PowerBI` folder have been created and worked on by **Iswarya Gudala**.
+All the files in this folder have been created and worked on by **Iswarya Gudala**.
 
 1. **Database Creation**:
    - A database was created to store and manage the dataset using MySql.
